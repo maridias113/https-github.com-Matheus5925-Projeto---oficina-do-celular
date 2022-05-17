@@ -1,0 +1,127 @@
+.Pagina-menu{
+
+    header{
+        background: #111112;
+        height: 70px;
+        
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+    }
+
+    .conteudo-header{
+        display: flex;
+        flex-direction: row;
+        padding-left: 4em;
+        padding-top: 0.5em;
+        
+    }
+
+    .dados-funcionario-header{
+        display: flex;
+        flex-direction: column;
+        gap: 0.8em;
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+        
+    }
+
+    .imgs-cadas-consult{
+        height: 30px;
+        width: 30px;
+    }
+
+    .campo-imagem-funcionario{
+
+        font-size: 10px;
+        
+    }
+    .img-seta{
+        
+        height: 15px;
+        width: 15px;
+    }
+
+    .img-seta-div{
+        padding-top: 2em;
+        padding-right: 0.3em;
+    }
+
+    .image-header{
+        text-align: center;
+        padding-top: 1em;
+        border-radius: 80em;
+        background-color: #B2B2B2;
+        width: 3.5em;
+        width: 3.5em;
+    }
+
+    .nome-funcionario{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        color: #f0f0f0;
+        font-size: 14px;
+        
+    }
+
+    .status-funcionario{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+
+        color: #B2B2B2;
+
+    }
+
+    .dahsboard-lateral{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #111112;
+        width: 180px;
+        height: 100vh;
+        padding-top: 2em;
+        
+    }
+
+    .linha-divisoria{
+        width: 70%;
+        background-color: #B2B2B2;
+        height: 1;
+    }
+
+    .cadastro-consulta{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: center;
+        margin-top: 0.5em;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        color: #f0f0f0 !important;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .cadastro-consulta > Link {
+        color: #f0f0f0 !important;
+    }
+
+    .segunda-parte{
+        height: 100vh;
+        width: 100%;
+        background-image: url('../../assets/image/fundo-menu-novo.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
